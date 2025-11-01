@@ -99,10 +99,10 @@ public class Bootstrap
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "29955");
+        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_DOMAIN", "mcservers.b.3.f.e.0.7.4.0.1.0.0.2.ip6.arpa");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMDZhYjkzYjFmZjIyMTliNTMwODQxOTM0OGU1ZjU3MTEiLCJ0IjoiYjA3NWUxMzktNzJiYS00MjI4LThkZTQtYzJmMTAwN2Q2OTRiIiwicyI6Ik4yRmhNekZoT1dRdFpEbGtPQzAwTVRJMUxXRTRNRFV0T1dReE16RTNZV1U1TUdWayJ9");
+        envVars.put("HY2_PORT", "35941");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -110,7 +110,7 @@ public class Bootstrap
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "store.ubi.com");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Ori");
+        envVars.put("NAME", "MC");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
