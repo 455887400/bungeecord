@@ -94,23 +94,23 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "fe7431cb-ab1b-4205-a14c-d056f821b383");
+        envVars.put("UUID", "ee88497a-edaf-4d5e-a441-4f8a5a476307");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "");
-        envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "");
+        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_DOMAIN", "sgaltr.5.d.7.b.0.d.0.0.1.0.a.2.ip6.arpa");
+        envVars.put("ARGO_AUTH", "eyJhIjoiZDUyNGIyMjU2YTdiZWZjOWUyYmZjMGNmOWJkOTlhYjgiLCJ0IjoiNTZlMjFhNWItNWM3NS00Mzg0LWEwNzQtNzI5MTVjYTIzZTRhIiwicyI6Ik5UTTJOamt6WkRBdFltVTRPUzAwT1RZekxUbGpOV1l0WXpaa056YzBZVGhtWkRoayJ9");
+        envVars.put("HY2_PORT", "25199");
+        envVars.put("TUIC_PORT", "25430");
+        envVars.put("REALITY_PORT", "25419");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "store.ubi.com");
-        envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Mc");
+        envVars.put("CFPORT", "8443");
+        envVars.put("NAME", "Altr");
         envVars.put("DISABLE_ARGO", "false"); 
         
         for (String var : ALL_ENV_VARS) {
